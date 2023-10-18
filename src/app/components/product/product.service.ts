@@ -8,7 +8,7 @@ import { Observable } from "rxjs";
   providedIn: "root",
 })
 export class ProductService {
-  baseUrl = "http://localhost:3000/products";
+  baseUrl = "https://json-api-products.vercel.app/products";
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) {}
 
